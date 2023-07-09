@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import ImageUploader from './imageUploader';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -15,7 +14,6 @@ export default function Page() {
   return (
     <div>
       <h1>Asciify</h1>
-      <ImageUploader onImageUpload={handleImageUpload} />
     </div>
   );
 }
